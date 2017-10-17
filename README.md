@@ -27,3 +27,6 @@ Method: POST,
 Url: http://localhost/Path-to-project/public/api/v1/driver/new-trip
 header: Authorization : Bearer + token generated from login
 Request object: {}
+
+5) run >> php artisan schedule:run .. to start scheduler
+
